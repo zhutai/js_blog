@@ -1,5 +1,7 @@
-es6 let 作用域
+### ES6的一些基础用法
 
+
+es6 let 作用域
 ```js
 try{
   if(true){
