@@ -2,11 +2,11 @@ es6 let 作用域
 
 ```js
 try{
-	if(true){
-	var a1 = "a1";
-	let a2 = "a2";
-	}
-	console.log(a1,a2);
+  if(true){
+    var a1 = "a1";
+    let a2 = "a2";
+  }
+  console.log(a1,a2);
 }catch(e){
   console.log(e);
 }
@@ -21,7 +21,7 @@ console.log(`我的名字叫${names}，今年${ages}岁`);
 es6函数默认赋值，=>后面没有{}括号直接return返回数据
 ```js
 const hello = (name = "zhutai",age = 24) => (
-    `我的名字叫${name}，今年${age}岁`
+  `我的名字叫${name}，今年${age}岁`
 );
 console.log(hello("fanming",22));
 ```
@@ -58,12 +58,12 @@ console.log(name,"|",age);
 es6 class 类
 ```js
 class Box{
-	constructor(name){
-     	this.name = name || "zhutai";
-	}
-	getName(){
-		console.log(`这个值是${this.name}`);
-	}
+  constructor(name){
+    this.name = name || "zhutai";
+  }
+  getName(){
+    console.log(`这个值是${this.name}`);
+  }
 }
 
 const App = new Box("china");
